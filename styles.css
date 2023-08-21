@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url(img/js.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.neon-text {
+    font-size: 2rem;
+    font-family: 'Press Start 2P', sans-serif; /* Usa la fuente Press Start 2P */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Efecto neon verde */
+}
+
+.green {
+    color: rgb(51, 0, 255);
+}
+
+.fuchsia {
+    color: rgb(255, 170, 0);
+}
